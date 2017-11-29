@@ -1,0 +1,16 @@
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType jpg "access 1 year"
+ExpiresByType jpeg "access 1 year"
+ExpiresByType gif "access 1 year"
+ExpiresByType png "access 1 year"
+ExpiresByTyp css "access 1 month"
+ExpiresByTyp html "access 1 month"
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType text/x-javascript "access 1 month"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 1 month"
+</IfModule>
+## EXPIRES CACHING ##

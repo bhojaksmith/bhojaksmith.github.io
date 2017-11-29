@@ -1,0 +1,198 @@
+body{
+	font-family: "avenir", sans-serif;
+	height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;	
+	background: #24c6dc; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #24c6dc, #514a9d)fixed;  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #24c6dc, #514a9d)fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+	overflow: hidden;
+ 	font-size: 100%;
+}
+.navDesk{
+	color: #f1f1f1;
+	text-align: center;
+	
+}
+#vr{
+	text-decoration: none;
+	color: #f1f1f1;
+}
+#vr:hover{
+	text-decoration: underline;
+}
+.content{
+	color: #f1f1f1;
+}
+#about{
+	text-align: center;
+	
+}
+#sb{
+	font-family: "Billabong";
+}
+#icn{
+	color: #f1f1f1;
+	text-align: center;
+}
+#icn:hover{
+	color: #202020;
+}
+
+u{
+	cursor: pointer;
+}
+u:hover{
+	color: #202020;
+	text-decoration:none;
+}
+
+/*desktop site code*/
+@media only screen and (min-width: 940px){
+	.navDesk{
+	margin-top: 5%;
+}
+#propic{
+	height: 100%;
+	width:30%;
+	margin-top:3%; 
+	margin-left: 15%;
+}
+.content{
+	margin-top: -40%;
+	margin-left: 40%;
+	margin-right:10%;
+}
+
+#about{
+	text-align: center;
+	font-size: 1.55em;
+}
+#sb{
+	font-size:1.7em;
+}
+#icn{
+	font-size: 1.55em;
+	padding-right:10%; 
+}
+.desktopHide{
+	margin-left:30%;
+	margin-top: 20%;
+}
+}
+/*mobile Code*/
+@media only screen and (max-width: 400px){
+
+.navDesk{
+	margin-top: 10%;
+}
+#propic{
+	height: 80%;
+	width:80%;
+	margin-top:50%; 
+	margin-left:60%;
+}
+.content{
+	margin-top: -165%;
+	margin-right:30%;
+}
+#about{
+	margin-left: 2%;
+	font-size: 1.1em;
+}
+#sb{
+	font-size: 1.4em;
+}
+#icn{
+	font-size: 1.6em;
+	padding-right:19%;
+	margin-left: -15%; 
+}.desktopHide{
+	margin-left:30%;
+	margin-top: 20%;
+}
+}
+/*Medium display code*/
+@media (min-width: 768px) and (max-width:939px){
+.navDesk{
+	margin-top: 5%;
+}
+#propic{
+	height: 100%;
+	width:40%;
+	margin-top:5%; 
+	margin-left: 5%;
+}
+.content{
+	margin-top: -55%;
+	margin-left: 50%;
+	margin-right:6%;
+}
+#about{
+	margin-left: 2%;
+	font-size: 1.5em;
+}
+#sb{
+	font-size: 1.52em;
+}
+#icn{
+	font-size: 1.52em;
+	padding-right:10%; 
+}
+.desktopHide{
+	margin-left:30%;
+	margin-top: 20%;
+}
+}
+/*Medium small display*/
+@media (min-width: 401px) and (max-width:767px){
+ 	
+#propic{
+	height:100%;
+	width:80%;
+	margin-top:40%; 
+	margin-left:60%;
+}
+.content{
+	margin-top: -160%;
+	margin-right:30%;
+}
+#about{
+	margin-left: 2%;
+	font-size: 1.5em;
+}
+#sb{
+	font-size: 1.4em;
+}
+#icn{
+	font-size: 1.8em;
+	padding-right:5%; 
+}.desktopHide{
+	margin-left:30%;
+	margin-top: 20%;
+}
+}
+/*Font Css*/
+
+@font-face {
+font-family: 'Billabong';
+font-style: normal;
+font-weight: normal;
+src: local('Billabong'), url('Billabong.woff') format('woff');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Avenir LT Pro 45 Book'), local('AvenirLTPro-Book'), url(https://fonts.gstatic.com/l/font?kit=k6e5O52B6MekHtih-eM9afesZW2xOQ-xsNqO47m55DA&skey=8887f17a62203d44&v=v1) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Avenir LT Pro 45 Book'), local('AvenirLTPro-Book'), url(https://fonts.gstatic.com/l/font?kit=yrOSjsChZucrvtFmTHmr7g&skey=8887f17a62203d44&v=v1) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
