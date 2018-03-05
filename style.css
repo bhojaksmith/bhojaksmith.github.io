@@ -51,12 +51,12 @@ u:hover{
 /*desktop site code*/
 @media only screen and (min-width: 940px){
 	.navDesk{
-	margin-top: 5%;
+	margin-top: 2%;
 }
 #propic{
 	height: 100%;
 	width:30%;
-	 
+	margin-top:-3;
 	margin-left: 15%;
 }
 .content{
@@ -90,7 +90,7 @@ u:hover{
 #propic{
 	height: 80%;
 	width:80%;
-	margin-top:40%; 
+	margin-top:30%; 
 	margin-left:60%;
 }
 .content{
@@ -121,7 +121,7 @@ u:hover{
 #propic{
 	height: 100%;
 	width:40%;
-	margin-top:1%; 
+	margin-top:-1%; 
 	margin-left: 5%;
 }
 .content{
