@@ -88,25 +88,25 @@ u:hover{
 	margin-top: 2%;
 }
 #propic{
-	height: 60%;
-	width:60%;
-	margin-top:10%; 
-	margin-left:60%;
+	height: 100%;
+	width:110%;
+	margin-top:8%; 
+	margin-left:50%;
 }
 .content{
-	margin-top: -165%;
-	margin-right:30%;
+	margin-top: -185%;
+	margin-right:25%;
 }
 #about{
 	margin-left: 2%;
-	font-size: 1.1em;
+	font-size: 1.5em;
 }
 #sb{
-	font-size: 1.4em;
+	font-size: 1.22em;
 }
 #icn{
-	font-size: 1.6em;
-	padding-right:19%;
+	font-size: 2em;
+	padding-right:20%;
 	margin-left: -15%; 
 }.desktopHide{
 	margin-left:30%;
@@ -119,13 +119,13 @@ u:hover{
 	margin-top: 5%;
 }
 #propic{
-	height: 100%;
-	width:40%;
+	height: 60%;
+	width:50%;
 	margin-top:-1%; 
-	margin-left: 5%;
+	margin-left: 1%;
 }
 .content{
-	margin-top: -55%;
+	margin-top: -65%;
 	margin-left: 50%;
 	margin-right:6%;
 }
@@ -145,18 +145,20 @@ u:hover{
 	margin-top: 20%;
 }
 }
+
 /*Medium small display*/
 @media (min-width: 401px) and (max-width:767px){
  	
 #propic{
 	height:100%;
 	width:80%;
-	margin-top:40%; 
+	margin-top:28%; 
 	margin-left:60%;
 }
 .content{
 	margin-top: -160%;
 	margin-right:30%;
+
 }
 #about{
 	margin-left: 2%;
@@ -173,6 +175,8 @@ u:hover{
 	margin-top: 20%;
 }
 }
+
+
 /*Font Css*/
 
 @font-face {
