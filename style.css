@@ -50,6 +50,7 @@ body{
 #vr:hover{
 	text-decoration: underline;
 	color: #A78AFA;
+	transition: ease-in 0.3s;
 }
 .content{
 	color: #202020;
@@ -67,6 +68,7 @@ body{
 }
 #icn:hover{
 	color: #A78AFA;
+	transition: ease-in 0.3s;
 }
 
 
