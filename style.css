@@ -28,13 +28,13 @@ body{
     	text-justify: inter-word;
 	font-family: "avenir", sans-serif;
 	height: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;	
-    background-image: url('https://raw.githubusercontent.com/bhojaksmith/bhojaksmith.github.io/master/background.jpg');
-//	background: #f8f8f9	; /* fallback for old browsers */
-	//background: #8869e0	; /* fallback for old browsers */
-	/*background: -webkit-linear-gradient(to left, #24c6dc, #514a9d)fixed;  /* Chrome 10-25, Safari 5.1-6 */
-	/*background: linear-gradient(to left, #24c6dc, #514a9d)fixed;  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+  */
+
+	background: #f8f8f9	; /* fallback for old browsers */
+	
+
+	background: #8869e0	; 
+	background: -webkit-linear-gradient(to bottom, #331370, #4e2994)fixed;  
+	background: linear-gradient(to bottom, #331370, #4e2994)fixed;  
 	overflow: hidden;
  	font-size: 100%;
 }
@@ -69,13 +69,7 @@ body{
 	color: #A78AFA;
 }
 
-u{
-	cursor: pointer;
-}
-u:hover{
-	color: #202020;
-	text-decoration:none;
-}
+
 a{
 	text-decoration: none;
 }
