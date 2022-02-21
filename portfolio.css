@@ -262,6 +262,10 @@ body{
         
         filter: saturate(1);
     }
+    .caseImage{
+        width: 100%;
+        margin: 0% 0%;
+    }
     .case{
         
         display: flex;
@@ -291,7 +295,7 @@ body{
         font-size: 1vw;
     }
     .caseDescription{
-        padding-bottom: 5%;
+        width: 90%;
     }
     .case:hover > .caseImage {
         transform: scale(1.08);
@@ -303,10 +307,16 @@ body{
   @media only screen and (min-width: 992px) {
 
    /* *** Desktop 992 STARTS *** */
-   .case:hover > .caseImage {
-    transform: scale(1.08);
-    /* box-shadow: 8px 8px 24px rgba(0,0,0,0.2); */
-    filter: saturate(1);
+   
+    .case:hover > .caseImage {
+        transform: scale(1.09);
+        /* box-shadow: 8px 8px 24px rgba(0,0,0,0.2); */
+        filter: saturate(1);
+    }
+    /* *** Desktop 1200 STARTS *** */
+   .content > .case:nth-child(even) {
+    flex-direction: row-reverse ;
+    margin-top: 5%;
 }
    .case{
         
@@ -314,15 +324,15 @@ body{
         align-items: start;
         justify-content: space-between;
         padding: 1% 0% ;
-        margin:0% 2% 3% 3%;
+        margin:1% 2% 3% 3%;
 
     }
 
 
     .caseImage{
         
-        width: 25vw;
-        margin: 0% 2%;
+        width: 100%;
+        margin: 0% 0%;
     }
     .caseDetails{
         
@@ -330,6 +340,7 @@ body{
         flex-direction: column;
         font-size: 1.25vw;
         margin: 0% 2%;
+        width: 90%;
         
     }
     .caseTitle{
