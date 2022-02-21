@@ -9,16 +9,16 @@ jQuery(document).ready(function() {
     });
     
     setInterval(function(){
-    xp += ((mouseX - xp)/4);
-    yp += ((mouseY - yp)/4);
+    xp += ((mouseX - xp)/10);
+    yp += ((mouseY - yp)/10);
     $(".cursor").css({left: xp +'px', top: yp +'px'});
     }, 20);
 
 });
 
-$(document).ready(function(){
-    $(".showSocial").click(function(){
-      $(".social").slideToggle();
-      $(".social").toggle();
-    });
-  });
+// $(document).ready(function(){
+//     $(".showSocial").click(function(){
+//       $(".social").slideToggle();
+//       $(".social").toggle();
+//     });
+//   });

@@ -1,0 +1,255 @@
+.contentMobile{
+  display: none;
+}
+.contactDummy{
+  color: white;
+}
+.swal-overlay {
+  background-color: rgba(0,0,0, 0.45) !important;
+}
+.swal-modal {
+  border-radius: 2%;
+  background-color: #67dba9;
+  
+}
+.swal-button {
+  transition: 300ms ease-in-out;
+  background-color: white;
+  color: #41ab7d;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.swal-button:hover{
+  background-color: white !important;
+  color: #41ab7d;
+  opacity: .8;
+}
+@keyframes arrowBounce{
+  0%{padding-left:0%}
+  50%{padding-left: 1.25%;}
+  100%{padding-left: 0%;}
+}
+
+body{
+  
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url('https://bhojaksmith.github.io/portfolio/assets/background.svg');
+  background-color: #67dba9;
+  /* background: linear-gradient(to right,#67dba9,#41ab7d); */
+  
+  background-attachment: fixed;
+
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  font-family: 'Inter', sans-serif;
+  overflow:hidden;
+  margin: 0;
+  left: 0;
+  top: 0;
+}
+.cursor{
+  z-index: 1;
+  position: absolute;
+  /* border: solid .25vw #000; */
+  background-color: rgba(0,0,0,0.8);
+  backdrop-filter: blur(100px); 
+  width: 1vw; 
+  height: 1vw; 
+  border-radius: 100%;  
+}
+
+.bottomBar,.bganimation3,.bganimation2{
+  display: none !important;
+} 
+
+::selection {
+  background: #41ab7d; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #41ab7d; /* Gecko Browsers */
+}
+
+
+
+
+.other:hover{
+  color:#000 !important;
+}
+
+b,a,span{
+    text-decoration: none;
+    color: #000; 
+    
+}
+a{
+  color: inherit;
+}
+
+b:hover{
+  text-decoration:underline;
+}
+.link{
+  padding: 1%;
+  color: #000;
+  font-weight: bold;
+}
+.arrow{
+  animation: arrowBounce 1.5s infinite ease-in-out;
+}
+.link:hover > .arrow{
+  animation-play-state: paused;
+  transition: 150ms ease-in-out;
+  margin-left:1.25% ;
+}
+
+
+.aboutContainer{
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  color: #fff;
+  filter: saturate(.85);  
+  bottom: 0;
+  width: 80%;
+}
+.aboutInfo{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  width: 50%;  
+}
+.aboutTitle{
+  font-family: 'Pacifico', cursive;
+  transition: 300ms ease-in;
+  font-size:5vw;
+}
+
+.aboutDescription{
+  line-height:169%;
+  font-size:1.5vw;
+  
+  transition: 300ms ease-in;
+}
+.smithPhoto{
+  transform-style: preserve-3d;
+  margin-left: 5%;
+  width: 30%;
+  flex-shrink: 0;
+}
+nav{
+  padding: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+
+ .other,.navItem{
+
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.5vw;
+  margin-right: 1vw; 
+  padding: 4%; 
+  }
+  
+.other{
+  color:rgba(0,0,0,0.2) !important;
+  transition: 250ms ease-in-out;
+}
+
+@media only screen and (max-width: 390px)  {
+  .cursor{
+    display: none;
+  }
+  .other,.navItem{
+    margin-top: 2%; 
+    padding: 4%; 
+  }
+  .smithPhoto{
+    margin-left: 5%;
+    width: 30%;
+  }
+        
+  .aboutContainer{
+    flex-direction: column-reverse;
+    justify-content: space-around !important;
+    align-items: center;
+    width: 150%;
+  }
+  .aboutInfo{
+    width: 50%;  
+  }
+  .aboutTitle{
+    font-size:10vw;
+  }
+
+  .other,.navItem,.aboutDescription{
+    font-size:4vw;
+  }
+}
+@media only screen and (max-width: 600px) and (min-width:391px) {
+  .cursor{
+    display: none;
+  }
+  .other,.navItem{
+    margin-top: 2%; 
+    padding: 4%; 
+  }
+  .smithPhoto{
+    margin-left: 5%;
+    width: 40%;
+  }
+        
+  .aboutContainer{
+    
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around !important;
+    width: 150%;
+  }
+  .aboutInfo{
+    width: 50%;  
+  }
+  .aboutTitle{
+    font-size:10vw;
+  }
+
+  .other,.navItem,.aboutDescription{
+    font-size:4vw;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width:768px){
+  .cursor{
+    display: none;
+  }
+  .other,.navItem{
+    margin-top: 2%; 
+    padding: 4%; 
+  }
+  .smithPhoto{
+    margin-left: 5%;
+    width: 30%;
+  }
+        
+  .aboutContainer{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 80%;
+  }
+  .aboutInfo{
+    width: 50%;  
+  }
+  .aboutTitle{
+    font-size:4vw;
+  }
+
+  .other,.navItem,.aboutDescription{
+    font-size:1.5vw;
+  }
+}
