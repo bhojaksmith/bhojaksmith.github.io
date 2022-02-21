@@ -41,7 +41,7 @@ body{
   background-color: #67dba9;
   /* background: linear-gradient(to right,#67dba9,#41ab7d); */
   
-  background-attachment: fixed;
+  background-attachment:fixed;
 
   background-repeat: no-repeat;
   background-size: 100%;
@@ -162,6 +162,10 @@ nav{
 }
 
 @media only screen and (max-width: 390px)  {
+  body{
+    background-image: url('https://bhojaksmith.github.io/portfolio/assets/backgroundMobile.svg') !important;
+    background-size: cover;
+  }
   .cursor{
     display: none;
   }
