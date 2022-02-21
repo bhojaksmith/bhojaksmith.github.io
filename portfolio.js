@@ -1,6 +1,6 @@
 function about(){
      window.open("index.html","_self");
-     swal("I am still working on this one!");
+     
  }
 // document.body.style.cursor='pointer';
 //  swal({
