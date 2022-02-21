@@ -222,7 +222,7 @@ body{
     .caseImage{
         
         width: 95vw;
-        padding-bottom: 5%;
+        padding:5% 5%;
     }
     .caseDetails{
         
@@ -232,15 +232,22 @@ body{
         font-size: 4vw;
         
         
+        
     }
     .caseTitle{
         font-size: 8vw;
+        padding-bottom: 5%;
     }
     .caseLink{
         padding-bottom: 5%;
         font-size: 4vw;
     }
-  
+    .caseDescription{
+        padding-bottom: 5%;
+    }
+    .case:hover > .caseImage {
+        transform: scale(1.05);
+    }
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
@@ -283,7 +290,12 @@ body{
         
         font-size: 1vw;
     }
-    
+    .caseDescription{
+        padding-bottom: 5%;
+    }
+    .case:hover > .caseImage {
+        transform: scale(1.08);
+    }
      /* XXX Desktop 768 STARTS XXX */
   }
   
