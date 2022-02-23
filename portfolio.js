@@ -42,7 +42,7 @@ function Stellars(){
    
       case "desktop":
         swal("Going to Desktop!");
-        window.open("https://www.figma.com/proto/l7WJJOj9w5nCaL4ZlLjKWw/Stellars-School?node-id=91%3A5146&scaling=min-zoom&page-id=91%3A5145&starting-point-node-id=91%3A5146&show-proto-sidebar=1&hide-ui=1");
+        window.open("https://www.figma.com/proto/l7WJJOj9w5nCaL4ZlLjKWw/Stellars-School?page-id=371%3A2&node-id=371%3A3&viewport=389%2C48%2C0.12&scaling=scale-down-width&starting-point-node-id=371%3A3&hide-ui=1");
         
 
         break;
