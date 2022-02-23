@@ -5,24 +5,26 @@
   color: white;
 }
 .swal-overlay {
-  background-color: rgba(0,0,0, 0.45) !important;
+  background-color: rgba(0,0,0, 0.4) !important;
 }
 .swal-modal {
-  border-radius: 2%;
-  background-color: #67dba9;
+  border-radius: 1vw;
+  background-color: rgba(255,255,255, 0.8);
+  backdrop-filter: blur(20px);
   
 }
 .swal-button {
+  font-weight: bold;
   transition: 300ms ease-in-out;
   background-color: white;
-  color: #41ab7d;
+  color: black;
   display:flex;
   align-items: center;
   justify-content: center;
 }
 .swal-button:hover{
-  background-color: white !important;
-  color: #41ab7d;
+  background-color: #A4E9CB !important;
+  color: #000;
   opacity: .8;
 }
 @keyframes arrowBounce{
@@ -37,7 +39,6 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-image: url('assets/background.svg');
   background-color: #67dba9;
   /* background: linear-gradient(to right,#67dba9,#41ab7d); */
   
