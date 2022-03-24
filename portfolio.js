@@ -23,16 +23,22 @@ function invisible(){
  
 }
 function Stellars(){
+  /* */
   swal("View Stellars Summer School Design?", {
     buttons: {
-      
-      catch: {
-        text: "View Mobile Prototype",
+      casestudy:{
+        text:"Case Study",
+        value:"casestudy",
+      },
+      mobile: {
+        text: "View Mobile",
         value: "mobile",
       },
       Desktop:{
-        text:"View Desktop Prototype",
+        text:"View Desktop",
         value:"desktop",
+        
+        
       },
       
     },
@@ -51,7 +57,11 @@ function Stellars(){
         swal("Going to Mobile");
         window.open("https://www.figma.com/proto/l7WJJOj9w5nCaL4ZlLjKWw/Stellars-School?node-id=93%3A2&scaling=min-zoom&page-id=91%3A5145&starting-point-node-id=93%3A2&hide-ui=1");
         break;
-   
+
+        case "casestudy":
+          window.open("https://www.behance.net/gallery/140140069/Stellars-School");
+          break;
+        
       default:
         break;
     }
@@ -93,7 +103,7 @@ function Footrax(){
         break;
       case "casestudy":
         
-        window.open("/assets/case/Footrax.pdf");
+        window.open("https://www.behance.net/gallery/140140547/Footrax");
         break;
       default:
         break;
@@ -102,7 +112,7 @@ function Footrax(){
   
 }
 function Festinger(){
-  window.open("/assets/case/FestingerVault.pdf");
+  window.open("https://www.behance.net/gallery/140140209/Festinger-Vault");
 }
 function Better(){
   window.open("/assets/case/BetterBarter.pdf");
@@ -130,7 +140,7 @@ function astro(){
         break;
    
       case "casestudy":
-        window.open("/assets/case/AstroEnergyGuru.pdf");
+        window.open("https://www.behance.net/gallery/140140433/Astro-Energy-Guru");
 
         break;
       default:
@@ -175,7 +185,7 @@ function neofantasy(){
         break;
       case "casestudy":
         
-        window.open("/assets/case/neofantasy.pdf");
+        window.open("https://www.behance.net/gallery/140140731/NeoFanTasy");
         break;
       default:
         break;
