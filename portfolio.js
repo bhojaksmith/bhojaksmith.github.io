@@ -220,7 +220,7 @@ function inforida(){
         break;
       case "casestudy":
         
-        window.open("/assets/case/inforida.pdf");
+        window.open("/assets/case/Inforida.pdf");
         break;
       default:
         break;
